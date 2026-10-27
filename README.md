@@ -3,67 +3,55 @@
 **Cybersecurity Strategist & Educator**  
 *Security for the curious, the confused, and the C-suite.*
 
-A personal portfolio of publications, speaking engagements, media appearances, and practical security education. Hosted with GitHub Pages. No paid hosting, runtime backend, or third-party analytics.
+This portfolio is hosted exclusively by GitHub Pages at https://hollygolightly528.github.io/.
 
-## Make changes
+## Update the portfolio — including from your phone
 
-You can edit files directly on GitHub, including from your phone. Open a file, choose the pencil icon, make your change, and commit it to `main`. The **Actions** tab shows build and publication status.
+Open a file on GitHub, choose the pencil icon, make changes, and commit to `main`. GitHub Pages automatically builds and publishes the update. Check the **Actions** tab for the `pages build and deployment` run.
 
-- **Add or edit work:** `dist/works.json`
-- **Edit your headline, bio, or page structure:** `build.py`
-- **Change colors and layout:** `dist/style.css`
-- **Change filtering, the theme switch, or Easter egg:** `dist/app.js`
-- **Change the default theme:** `dist/theme-init.js`
+| What to change | File |
+| --- | --- |
+| Add or edit a publication, speaking engagement, or media appearance | `_data/works.json` |
+| Headline, introduction, biography, navigation | `index.html` |
+| Colors, layout, dark-mode palette | `style.css` |
+| Search, filters, theme switch, Easter egg | `app.js` |
+| Default theme | `theme-init.js` |
+| Website settings | `_config.yml` |
 
-`dist/index.html` is generated from `build.py` and `dist/works.json`; edit those source files for lasting changes. The workflow builds the page and publishes `dist` after a commit to `main`.
+### Add a work entry
 
-### Add an entry
-
-Add an object to the array in `dist/works.json`, using a comma between objects:
+Add an object to the array in `_data/works.json`, with a comma between entries:
 
 ```json
 {
-  "title": "Your session or article title",
+  "title": "Session or article title",
   "category": "Speaking",
   "publisher": "Event or publication name",
   "date": "October 24, 2026",
+  "sort_date": "2026-10-24",
   "role": "Speaker",
   "topic": "Threat hunting",
   "description": "A short description of the work and your contribution.",
-  "url": "https://example.com/your-work"
+  "url": "https://example.com/your-work",
+  "featured": false
 }
 ```
 
-Categories: `Published work`, `Speaking`, `Media`.
-Topics: `Threat hunting`, `AI & security`, `Security fundamentals`, `Threat research`; use an empty string when the topic is not established.
-Dates: full or abbreviated month plus day/year, or just a year when the precise date is unknown.
-Use `null` for `url` when there is no public link. Keep collaborators and original authors credited. Descriptive titles are used where official session titles are unavailable.
+- Categories: `Published work`, `Speaking`, `Media`.
+- Topics: `Threat hunting`, `AI & security`, `Security fundamentals`, `Threat research`; use an empty string for an unconfirmed topic.
+- Keep `date` human-readable. Use `sort_date` in YYYY-MM-DD form for ordering. When only the year is known, show just the year in `date` and use YYYY-01-01 for sorting.
+- Use `null` for `url` when there is no public link. No fake link is shown.
+- `featured: true` includes a publication in the featured writing section.
+- Keep original authors and collaborators credited. Some event headings are descriptive when the official session title is unavailable.
 
-## Preview locally
+Counts and ordering update automatically from the data. There is no separate generator to run and no package to install for routine edits. GitHub's built-in Jekyll build renders the templates in `_includes`.
 
-Python 3 and a browser are enough; no packages need installing.
+## Publishing and rollback
 
-```sh
-python3 build.py
-python3 -m http.server 8000 --directory dist
-```
-
-Open `http://localhost:8000`.
-
-## Publishing
-
-In repository **Settings → Pages**, set the build source to **GitHub Actions**. The workflow is `.github/workflows/pages.yml` and uses official GitHub Pages actions.
-
-## Undo a change
-
-GitHub keeps commit history. Revert an unwanted commit, or ask for an earlier version to be restored; committing that restoration republishes the site. To take the website offline, use **Settings → Pages → Unpublish site**.
+GitHub Pages uses `main` and the repository root. Commit changes to update the live website. GitHub keeps version history; revert a commit to restore an earlier version. To take it offline, use **Settings → Pages → Unpublish site**.
 
 ## Features
 
-- Chronological collection with format, topic, and text filters
-- Dark mode by default, with a remembered light/dark preference
-- Keyboard-accessible Easter egg on the star beside the headline
-- Responsive layout and reduced-motion support
-- External links to original publications, event sources, and media
+Dark mode with a remembered light/dark choice; format, topic and text filters; responsive layout; reduced-motion support; a keyboard-accessible surprise on the hero star. No third-party analytics or runtime backend.
 
-Content is a growing collection; article dates can reflect updates. Speaking entries may be confirmed by the speaker rather than a public event archive. Private events are labeled and have no invented public links.
+This is a growing collection. Dates may reflect article updates. Speaking entries can be confirmed by the speaker rather than a public archive. Private events are labeled and have no invented public links.

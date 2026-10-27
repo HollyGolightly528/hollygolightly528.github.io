@@ -1,0 +1,11 @@
+title: Tamara Chacon
+url: https://hollygolightly528.github.io
+baseurl: ""
+encoding: utf-8
+theme: null
+plugins: []
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
