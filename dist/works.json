@@ -1,0 +1,292 @@
+[
+  {
+    "title": "How AI Coding Assistants Transform Security Teams into Tool Builders",
+    "url": "https://www.splunk.com/en_us/blog/ciso-circle/ai-coding-assistants-security-workflows.html",
+    "date": "Sep 10, 2026",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Author",
+    "description": "How AI coding assistants help security practitioners turn investigative ideas into practical tools.",
+    "topic": "AI & security"
+  },
+  {
+    "title": "Security Staff Picks To Read This Month, Handpicked by Splunk Experts",
+    "url": "https://www.splunk.com/en_us/blog/security/cybersecurity-recent-articles.html",
+    "date": "December 05, 2025",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Curator & contributor",
+    "description": "A recurring collection of security reading recommendations from Splunk experts.",
+    "topic": "Security fundamentals"
+  },
+  {
+    "title": "AI for Humans: A Beginner’s Field Guide",
+    "url": "https://www.splunk.com/en_us/blog/security/ai-beginners-cybersecurity-guide.html",
+    "date": "November 20, 2025",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Coauthor · with Vandita Anand & Audra Streetman",
+    "description": "An accessible introduction to AI concepts, terminology, and their place in cybersecurity.",
+    "topic": "AI & security"
+  },
+  {
+    "title": "How To Use CloudTrail Data for Security Operations & Threat Hunting",
+    "url": "https://www.splunk.com/en_us/blog/security/cloudtrail-data-security-operations.html",
+    "date": "July 03, 2025",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Putting AWS CloudTrail telemetry to work for investigations and threat hunting.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Hunting with SA-Investigator & Splunk Enterprise Security (SIEM)",
+    "url": "https://www.splunk.com/en_us/blog/security/threat-hunting-sa-investigator.html",
+    "date": "July 03, 2025",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Using asset and identity context to streamline security investigations.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Hunting for Threats in VPCFlows",
+    "url": "https://www.splunk.com/en_us/blog/security/threat-hunting-vpcflows.html",
+    "date": "July 03, 2025",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Exploring AWS network flow data as a source of hunting opportunities.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "From Instinct to Insight: Why Metrics Are Essential to Threat Hunting Success",
+    "url": "https://www.splunk.com/en_us/blog/security/from-instinct-to-insight-why-metrics-are-essential-to-threat-hunting-success.html",
+    "date": "May 28, 2025",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Author",
+    "description": "Measuring the impact, coverage, and operational value of threat hunting.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Macro-ATT&CK 2024: A Five-Year Perspective",
+    "url": "https://www.splunk.com/en_us/blog/security/macro-att-ck-2024-a-five-year-perspective.html",
+    "date": "October 10, 2024",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Coauthor · with Ryan Fetterman",
+    "description": "A five-year view of adversary techniques to inform defensive priorities.",
+    "topic": "Threat research"
+  },
+  {
+    "title": "How To Start Threat Hunting: The Beginner's Guide",
+    "url": "https://www.splunk.com/en_us/blog/security/threat-hunting-beginners-guide.html",
+    "date": "April 25, 2024",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Coauthor & updated edition contributor · with Madeleine Tauber",
+    "description": "A practical starting point for hunting in an unfamiliar data environment.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Detecting Lateral Movement with Splunk: How To Spot the Signs",
+    "url": "https://www.splunk.com/en_us/blog/security/spotting-the-signs-of-lateral-movement.html",
+    "date": "April 02, 2024",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Coauthor & updated edition contributor · with Madeleine Tauber",
+    "description": "Finding signs of adversaries moving between systems with legitimate tools.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Detecting New Domains in Splunk (Finding New Evil)",
+    "url": "https://www.splunk.com/en_us/blog/security/finding-new-evil-detecting-new-domains-with-splunk.html",
+    "date": "March 11, 2024",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Coauthor & updated edition contributor · with Madeleine Tauber",
+    "description": "Looking for suspicious activity involving domains newly observed in your environment.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Old School vs. New School",
+    "url": "https://www.splunk.com/en_us/blog/security/old-school-vs-new-school.html",
+    "date": "December 14, 2023",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Author",
+    "description": "Research into generative AI and traditional translation tools for spear-phishing content.",
+    "topic": "AI & security"
+  },
+  {
+    "title": "Detecting Dubious Domains with Levenshtein, Shannon & URL Toolbox",
+    "url": "https://www.splunk.com/en_us/blog/security/domain-detection-levenshtein-shannon.html",
+    "date": "December 01, 2023",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Exploring domain similarity and randomness to find suspicious activity.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Parsing Domains with URL Toolbox (Just Like House Slytherin)",
+    "url": "https://www.splunk.com/en_us/blog/security/domain-parsing-url-toolbox.html",
+    "date": "December 01, 2023",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Breaking domains and URLs into useful fields for investigation.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Using eval to Calculate, Appraise, Classify, Estimate & Threat Hunt",
+    "url": "https://www.splunk.com/en_us/blog/security/eval-command-threat-hunting.html",
+    "date": "November 28, 2023",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Applying the eval command to investigative questions.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Using RegEx for Threat Hunting (It’s Not Gibberish, We Promise!)",
+    "url": "https://www.splunk.com/en_us/blog/security/regex-regular-expression.html",
+    "date": "November 20, 2023",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Making regular expressions a practical part of the hunting toolkit.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Stat! 3 Must-Have Data Filtering Techniques",
+    "url": "https://www.splunk.com/en_us/blog/security/data-filtering-techniques.html",
+    "date": "November 17, 2023",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Reducing noise with time ranges, field values, and exclusion filters.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Using metadata & tstats for Threat Hunting",
+    "url": "https://www.splunk.com/en_us/blog/security/metadata-tstats-threat-hunting.html",
+    "date": "September 18, 2023",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Building an initial picture of the data available for a hunt.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Using stats, eventstats & streamstats for Threat Hunting…Stat!",
+    "url": "https://www.splunk.com/en_us/blog/security/stats-eventstats-streamstats-threat-hunting.html",
+    "date": "September 18, 2023",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Using statistical commands to explore and analyze security events.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Using Splunk Stream for Hunting: Finding Islands in the Stream (of Data)",
+    "url": "https://www.splunk.com/en_us/blog/security/threat-hunting-stream.html",
+    "date": "August 17, 2023",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Using network telemetry from Splunk Stream for threat hunting.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Detecting DNS Exfiltration with Splunk: Hunting Your DNS Dragons",
+    "url": "https://www.splunk.com/en_us/blog/security/detect-hunt-dns-exfiltration.html",
+    "date": "June 09, 2023",
+    "category": "Published work",
+    "publisher": "Splunk",
+    "role": "Updated edition contributor",
+    "description": "Exploring DNS activity for signs of data exfiltration.",
+    "topic": "Threat hunting"
+  },
+  {
+    "title": "Hold My Coffee, I’m Building a Security Tool: Security Without Gatekeepers in an AI-First World",
+    "category": "Speaking",
+    "publisher": "BSides Augusta",
+    "date": "October 24, 2026",
+    "role": "Co-presenter · with David J. Bianco",
+    "topic": "AI & security",
+    "description": "Delivered at BSides Augusta: a session on AI-assisted experimentation and building practical security workflows.",
+    "url": "https://pretalx.com/bsidesaugusta-2026/talk/J9TMXD/"
+  },
+  {
+    "title": "Building a Splunk Security Learning Roadmap",
+    "category": "Speaking",
+    "publisher": "Splunk .conf21",
+    "date": "2021",
+    "role": "Co-presenter · with Katie Brown",
+    "topic": "Security fundamentals",
+    "description": "A session on progressing from beginner to champion in Splunk security. Descriptive title; linked event recap documents the session.",
+    "url": "https://www.splunk.com/en_us/blog/security/staff-picks-for-splunk-security-reading-october-2021.html"
+  },
+  {
+    "title": "Cisco AI Security Expert on Securing LLMs and Curbing ‘Shadow AI’",
+    "category": "Media",
+    "publisher": "The AI Innovator",
+    "date": "January 20, 2026",
+    "role": "Interviewee",
+    "topic": "AI & security",
+    "description": "A conversation with Deborah Yao about human behavior, AI governance, and security fundamentals.",
+    "url": "https://theaiinnovator.com/cisco-ai-security-expert-on-securing-llms-and-curbing-shadow-ai/"
+  },
+  {
+    "title": "It’s Taplunk! Talos and Splunk Threat Researchers Meet to Put the Security World to Rights",
+    "category": "Media",
+    "publisher": "Talos Takes",
+    "date": "October 31, 2024",
+    "role": "Podcast guest",
+    "topic": "Security fundamentals",
+    "description": "A roundtable on security trends, awareness training, and the challenges facing defenders.",
+    "url": "https://talosintelligence.com/podcasts/shows/talos_takes?page=5"
+  },
+  {
+    "title": "NCSC Says AI Will Increase Ransomware, Cyberthreats",
+    "category": "Media",
+    "publisher": "TechTarget",
+    "date": "2024",
+    "role": "Quoted expert",
+    "topic": "AI & security",
+    "description": "Commentary on generative AI and the speed of phishing content creation.",
+    "url": "https://www.techtarget.com/cybersecurity/news/366567632/NCSC-says-AI-will-increase-ransomware-cyberthreats?amp=1"
+  },
+  {
+    "title": "State of Security 2025",
+    "category": "Media",
+    "publisher": "Splunk",
+    "date": "2025",
+    "role": "Quoted expert",
+    "topic": "Security fundamentals",
+    "description": "Expert perspectives on the future of the SOC and the skills involved in detection engineering.",
+    "url": "https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2025.pdf"
+  },
+  {
+    "title": "Splunk GovSummit 2023 — Keynote Contribution",
+    "category": "Speaking",
+    "publisher": "Splunk GovSummit",
+    "date": "December 14, 2023",
+    "role": "Keynote contributor · with Mick Baccio",
+    "topic": "",
+    "description": "Delivered part of the keynote alongside Mick Baccio at Splunk GovSummit 2023.",
+    "url": "https://www.splunk.com/en_us/newsroom/press-releases/2023/media-alert-splunk-govsummit-2023---delivering-on-the-nations-cyber-strategy-together.html"
+  },
+  {
+    "title": "Hunt Analyst Working Group (HAWG) — PEAK Threat Hunting",
+    "category": "Speaking",
+    "publisher": "Hunt Analyst Working Group (HAWG)",
+    "date": "2023",
+    "role": "Speaker · Private, invite-only event",
+    "topic": "Threat hunting",
+    "description": "Presented a talk on the PEAK Threat Hunting Framework.",
+    "url": null
+  }
+]
